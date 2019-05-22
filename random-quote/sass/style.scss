@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url("https://images.unsplash.com/photo-1558334531-37c733eeba7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    height: 100vh;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.trigger {
+    display: inline-block;
+    font-size: 36px;
+    color: white;
+    background: #2980b9;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.tweet {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: #1ca0f2;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+
+    .fab {
+        padding-right: 5px;
+    }
+}
